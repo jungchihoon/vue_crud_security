@@ -1,4 +1,4 @@
-def label = "podman-agent"
+def label = "podman-agent1"
 def gitBranch = 'master'
 def docker_registry = "dockerhub.io"  
 
