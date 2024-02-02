@@ -1,16 +1,16 @@
 def label = "agent-${UUID.randomUUID().toString()}"
 def gitBranch = 'master'
-def docker_registry = "ghcr.io"  
+def docker_registry = "dockerhub.io"  
 
 // 본인 이미지 사용
-def imageName = "ghcr.io/kt-cloudnative/vue_crud_security"
-def git_ops_name = "frontend-gitops-kust"
+def imageName = "giglepeople/vue3"
+def git_ops_name = "frontend-gitops-kustomize"
 // 본인 Namespace
 def P_NAMESPACE = "default"
 // 본인 slave pvc
-def P_SLAVE_PVC = "jenkins-edu-slave-pvc"
+def P_SLAVE_PVC = "jenkins-slave-pvc"
 // 본인 이메일
-def P_EMAIL = "shclub@gmail.com"
+def P_EMAIL = "giglepeople@gmail.com"
 
 
 def TAG = getTag(gitBranch)
