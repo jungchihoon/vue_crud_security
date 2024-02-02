@@ -1,4 +1,4 @@
-def label = "agent-${UUID.randomUUID().toString()}"
+def label = "podman-agent"
 def gitBranch = 'master'
 def docker_registry = "dockerhub.io"  
 
